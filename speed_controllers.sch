@@ -1399,7 +1399,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="R1" library="auv" deviceset="R-US_" device="R0603"/>
 <part name="SUPPLY9" library="auv" deviceset="VCC" device=""/>
 <part name="OK1" library="auv" deviceset="6N137" device=""/>
-<part name="SUPPLY10" library="auv" deviceset="VCC" device=""/>
 <part name="GND9" library="auv" deviceset="GND" device=""/>
 <part name="JP1" library="auv" deviceset="PINHD-2X10" device=""/>
 </parts>
@@ -1455,7 +1454,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="R1" gate="G$1" x="17.78" y="-86.36" rot="R90"/>
 <instance part="SUPPLY9" gate="G$1" x="12.7" y="-81.28" rot="R90"/>
 <instance part="OK1" gate="A" x="88.9" y="-111.76"/>
-<instance part="SUPPLY10" gate="G$1" x="73.66" y="-101.6"/>
 <instance part="GND9" gate="1" x="68.58" y="-119.38"/>
 <instance part="JP1" gate="A" x="35.56" y="-71.12" rot="R270"/>
 </instances>
@@ -1597,12 +1595,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 <wire x1="17.78" y1="-81.28" x2="15.24" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="OK1" gate="A" pin="A"/>
-<pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="-106.68" x2="73.66" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-106.68" x2="73.66" y2="-104.14" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="FET_G" class="0">
 <segment>
@@ -1612,8 +1604,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="116.84" y1="86.36" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="30.48" x2="116.84" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-30.48" x2="116.84" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-91.44" x2="73.66" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="FET7" gate="G$1" pin="G"/>
+<wire x1="73.66" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-91.44" x2="27.94" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-91.44" x2="17.78" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-91.44" x2="15.24" y2="-91.44" width="0.1524" layer="91"/>
@@ -1658,6 +1651,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <junction x="43.18" y="-91.44"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="17.78" y="-91.44"/>
+<pinref part="OK1" gate="A" pin="A"/>
+<wire x1="76.2" y1="-106.68" x2="73.66" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-106.68" x2="73.66" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="73.66" y="-91.44"/>
 </segment>
 </net>
 <net name="PWM_GND" class="0">

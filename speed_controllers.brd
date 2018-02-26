@@ -711,7 +711,6 @@ design rules under a new name.</description>
 <contactref element="HE2" pad="1"/>
 <contactref element="HE3" pad="1"/>
 <contactref element="R1" pad="2"/>
-<contactref element="OK1" pad="2"/>
 </signal>
 <signal name="FET_G">
 <contactref element="FET5" pad="G"/>
@@ -763,13 +762,18 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <wire x1="0" y1="-46.57" x2="0" y2="-48.26" width="0.1524" layer="1"/>
 <wire x1="0" y1="-48.26" x2="0" y2="-53.34" width="0.1524" layer="1"/>
-<wire x1="-62.865" y1="8.255" x2="-63.5" y2="-33.02" width="0.254" layer="16"/>
+<wire x1="-62.865" y1="8.255" x2="-63.138475" y2="-9.52079375" width="0.254" layer="16"/>
+<wire x1="-63.138475" y1="-9.52079375" x2="-63.5" y2="-33.02" width="0.254" layer="16"/>
 <wire x1="-63.5" y1="-33.02" x2="-48.26" y2="-48.26" width="0.254" layer="16"/>
 <wire x1="-48.26" y1="-48.26" x2="-33.02" y2="-48.26" width="0.254" layer="16"/>
 <wire x1="43.18" y1="-48.26" x2="50.8" y2="-48.26" width="0.254" layer="16"/>
 <via x="50.8" y="-48.26" extent="1-16" drill="0.35"/>
 <wire x1="50.8" y1="-48.26" x2="60.96" y2="-38.1" width="0.254" layer="1"/>
 <wire x1="60.96" y1="-38.1" x2="60.96" y2="-10.16" width="0.254" layer="1"/>
+<contactref element="OK1" pad="2"/>
+<wire x1="-67.31" y1="-9.525" x2="-63.14268125" y2="-9.525" width="0.1524" layer="1"/>
+<wire x1="-63.14268125" y1="-9.525" x2="-63.138475" y2="-9.52079375" width="0.1524" layer="1"/>
+<via x="-63.138475" y="-9.52079375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="PWM_GND">
 <contactref element="MOTOR8" pad="PWM_GND"/>
