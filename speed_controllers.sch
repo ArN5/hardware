@@ -534,25 +534,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
-<package name="DIL08">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="2X10">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-12.7" y1="-1.905" x2="-12.065" y2="-2.54" width="0.1524" layer="21"/>
@@ -775,6 +756,53 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="11.049" y1="-4.699" x2="11.811" y2="-2.921" layer="51"/>
 <rectangle x1="11.049" y1="-5.461" x2="11.811" y2="-4.699" layer="21"/>
 </package>
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DIL8-SMD">
+<description>&lt;b&gt;Dual  In Line SMD&lt;/b&gt; 8 pol.&lt;p&gt;
+Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
+<wire x1="4.855" y1="3.18" x2="4.855" y2="-2.164" width="0.1524" layer="21"/>
+<wire x1="4.855" y1="-2.164" x2="4.855" y2="-3.18" width="0.1524" layer="21"/>
+<wire x1="-4.855" y1="3.18" x2="4.855" y2="3.18" width="0.1524" layer="21"/>
+<wire x1="4.855" y1="-3.18" x2="-4.855" y2="-3.18" width="0.1524" layer="21"/>
+<wire x1="-4.855" y1="-3.18" x2="-4.855" y2="3.18" width="0.1524" layer="21"/>
+<wire x1="4.855" y1="-2.164" x2="-4.855" y2="-2.164" width="0.1524" layer="21"/>
+<smd name="1" x="-3.81" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="2" x="-1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="3" x="1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="4" x="3.81" y="-4.77" dx="1.6" dy="2" layer="1"/>
+<smd name="5" x="3.81" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="6" x="1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="7" x="-1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="8" x="-3.81" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<text x="-5.08" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.415" y1="-5.15" x2="-3.19" y2="-3.2" layer="51"/>
+<rectangle x1="-1.875" y1="-5.15" x2="-0.65" y2="-3.2" layer="51"/>
+<rectangle x1="0.665" y1="-5.15" x2="1.89" y2="-3.2" layer="51"/>
+<rectangle x1="3.205" y1="-5.15" x2="4.43" y2="-3.2" layer="51"/>
+<rectangle x1="3.19" y1="3.2" x2="4.415" y2="5.15" layer="51" rot="R180"/>
+<rectangle x1="0.65" y1="3.2" x2="1.875" y2="5.15" layer="51" rot="R180"/>
+<rectangle x1="-1.89" y1="3.2" x2="-0.665" y2="5.15" layer="51" rot="R180"/>
+<rectangle x1="-4.43" y1="3.2" x2="-3.205" y2="5.15" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -892,6 +920,34 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="PINH2X10">
+<wire x1="-6.35" y1="-15.24" x2="8.89" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="-15.24" x2="8.89" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="8.89" y1="12.7" x2="-6.35" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="12.7" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
+<text x="-6.35" y="13.335" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="10.16" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="5.08" y="7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="9" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="10" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="11" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="12" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="13" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="14" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="15" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="16" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="17" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="18" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="19" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="20" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+</symbol>
 <symbol name="137">
 <wire x1="-5.715" y1="2.54" x2="-6.985" y2="0" width="0.254" layer="94"/>
 <wire x1="-6.985" y1="0" x2="-8.255" y2="2.54" width="0.254" layer="94"/>
@@ -943,34 +999,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pin name="VCC" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="GND" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="VE" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="PINH2X10">
-<wire x1="-6.35" y1="-15.24" x2="8.89" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="-15.24" x2="8.89" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="12.7" x2="-6.35" y2="12.7" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="12.7" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-6.35" y="13.335" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="10.16" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="5.08" y="10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="3" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="5.08" y="7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="5" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="7" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="8" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="9" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="10" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="11" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="12" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="13" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="14" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="15" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="16" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="17" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="18" x="5.08" y="-10.16" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="19" x="-2.54" y="-12.7" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="20" x="5.08" y="-12.7" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1252,32 +1280,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6N137" prefix="OK">
-<description>&lt;b&gt;MOTOROLA OPTO COUPLER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="137" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL08">
-<connects>
-<connect gate="A" pin="A" pad="2"/>
-<connect gate="A" pin="C" pad="3"/>
-<connect gate="A" pin="GND" pad="5"/>
-<connect gate="A" pin="VCC" pad="8"/>
-<connect gate="A" pin="VE" pad="7"/>
-<connect gate="A" pin="VO" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="6N137" constant="no"/>
-<attribute name="OC_FARNELL" value="1328376" constant="no"/>
-<attribute name="OC_NEWARK" value="52M1895" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PINHD-2X10" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -1333,6 +1335,45 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6N137" prefix="OK">
+<description>&lt;b&gt;MOTOROLA OPTO COUPLER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="137" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL08">
+<connects>
+<connect gate="A" pin="A" pad="2"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="VCC" pad="8"/>
+<connect gate="A" pin="VE" pad="7"/>
+<connect gate="A" pin="VO" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="6N137" constant="no"/>
+<attribute name="OC_FARNELL" value="1328376" constant="no"/>
+<attribute name="OC_NEWARK" value="52M1895" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="DIL8-SMD">
+<connects>
+<connect gate="A" pin="A" pad="2"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="VCC" pad="8"/>
+<connect gate="A" pin="VE" pad="7"/>
+<connect gate="A" pin="VO" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1398,9 +1439,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <part name="HE3" library="auv" deviceset="PINHD-1X3" device=""/>
 <part name="R1" library="auv" deviceset="R-US_" device="R0603"/>
 <part name="SUPPLY9" library="auv" deviceset="VCC" device=""/>
-<part name="OK1" library="auv" deviceset="6N137" device=""/>
-<part name="GND9" library="auv" deviceset="GND" device=""/>
 <part name="JP1" library="auv" deviceset="PINHD-2X10" device=""/>
+<part name="OK1" library="auv" deviceset="6N137" device="SMD"/>
+<part name="SUPPLY10" library="auv" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1453,9 +1494,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <instance part="HE3" gate="A" x="50.8" y="-109.22" rot="R270"/>
 <instance part="R1" gate="G$1" x="17.78" y="-86.36" rot="R90"/>
 <instance part="SUPPLY9" gate="G$1" x="12.7" y="-81.28" rot="R90"/>
-<instance part="OK1" gate="A" x="88.9" y="-111.76"/>
-<instance part="GND9" gate="1" x="68.58" y="-119.38"/>
 <instance part="JP1" gate="A" x="35.56" y="-71.12" rot="R270"/>
+<instance part="OK1" gate="A" x="88.9" y="-111.76"/>
+<instance part="SUPPLY10" gate="G$1" x="71.12" y="-93.98"/>
 </instances>
 <busses>
 </busses>
@@ -1527,12 +1568,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="50.8" y1="-101.6" x2="35.56" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="35.56" y="-101.6"/>
 </segment>
-<segment>
-<pinref part="OK1" gate="A" pin="C"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="76.2" y1="-114.3" x2="68.58" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-114.3" x2="68.58" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -1595,6 +1630,12 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 <wire x1="17.78" y1="-81.28" x2="15.24" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
+<wire x1="71.12" y1="-96.52" x2="71.12" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="A" pin="A"/>
+<wire x1="76.2" y1="-106.68" x2="71.12" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="FET_G" class="0">
 <segment>
@@ -1604,9 +1645,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="116.84" y1="86.36" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="30.48" x2="116.84" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-30.48" x2="116.84" y2="-91.44" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-91.44" x2="73.66" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-91.44" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="FET7" gate="G$1" pin="G"/>
-<wire x1="73.66" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-91.44" x2="27.94" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-91.44" x2="17.78" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-91.44" x2="15.24" y2="-91.44" width="0.1524" layer="91"/>
@@ -1651,10 +1692,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <junction x="43.18" y="-91.44"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="17.78" y="-91.44"/>
-<pinref part="OK1" gate="A" pin="A"/>
-<wire x1="76.2" y1="-106.68" x2="73.66" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-106.68" x2="73.66" y2="-91.44" width="0.1524" layer="91"/>
-<junction x="73.66" y="-91.44"/>
+<pinref part="OK1" gate="A" pin="C"/>
+<wire x1="76.2" y1="-114.3" x2="63.5" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-114.3" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="63.5" y="-91.44"/>
 </segment>
 </net>
 <net name="PWM_GND" class="0">
@@ -1722,9 +1763,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <junction x="22.86" y="-76.2"/>
 <wire x1="43.18" y1="-76.2" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-88.9" x2="109.22" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="GND"/>
 <wire x1="109.22" y1="-88.9" x2="109.22" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="-114.3" x2="99.06" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="A" pin="GND"/>
 </segment>
 </net>
 <net name="VIN_7" class="0">
@@ -2046,9 +2087,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="VE"/>
 <wire x1="99.06" y1="-109.22" x2="104.14" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="VCC"/>
 <wire x1="104.14" y1="-109.22" x2="104.14" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-106.68" x2="99.06" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-106.68" x2="104.14" y2="-63.5" width="0.1524" layer="91"/>
@@ -2056,14 +2095,16 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <junction x="104.14" y="-106.68"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="45.72" y1="-63.5" x2="45.72" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="A" pin="VCC"/>
+<pinref part="OK1" gate="A" pin="VE"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="VO"/>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="99.06" y1="-111.76" x2="99.06" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-68.58" x2="43.18" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="A" pin="VO"/>
 </segment>
 </net>
 </nets>

@@ -43913,6 +43913,19 @@ SMT- SWCH-08247</description>
 </technology>
 </technologies>
 </device>
+<device name="SMD" package="DIL8-SMD">
+<connects>
+<connect gate="A" pin="A" pad="2"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="VCC" pad="8"/>
+<connect gate="A" pin="VE" pad="7"/>
+<connect gate="A" pin="VO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
